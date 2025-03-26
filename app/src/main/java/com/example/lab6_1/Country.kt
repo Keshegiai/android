@@ -5,3 +5,4 @@ data class Country(
     val population: String,
     val flagResource: Int
 )
+
