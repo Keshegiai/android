@@ -33,7 +33,6 @@ class MainActivity : AppCompatActivity() {
         }
         recyclerView.adapter = adapter
     }
-
     private fun createSampleCountries(): List<Country> {
         return listOf(
             Country("Казахстан", "19 миллионов", R.drawable.kazakhstan),
