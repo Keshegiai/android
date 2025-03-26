@@ -17,7 +17,6 @@ class CountryAdapter(
         val populationTextView: TextView = itemView.findViewById(R.id.populationTextView)
         val flagImageView: ImageView = itemView.findViewById(R.id.flagImageView)
     }
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CountryViewHolder {
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.item_country, parent, false)
